@@ -25,7 +25,10 @@ Here, I have implemented an easy and generic solution to the problem.
 1. In Zotero, install the [Better BibTex](https://retorque.re/zotero-better-bibtex/index.html) plugin.
 
 2. Select all your papers, right-click -> `Better BibTeX` -> `Generate missing BibTeX key`. This needs to be done only the first time.
-<img width="1396" height="964" alt="image" src="https://github.com/user-attachments/assets/cbad84bd-e40d-4685-88bc-b6d9c72a425b" />
+<p align="center">   
+  <img src="https://github.com/user-attachments/assets/cbad84bd-e40d-4685-88bc-b6d9c72a425b" width="400">
+</p>
+
 
 3. In the Zotero preferences, in the tab _Better BibTeX_, define a desired Citation Key formula. I prefer: `auth + '_' + journal + '_' +year`
 
@@ -33,19 +36,25 @@ Here, I have implemented an easy and generic solution to the problem.
 
 5. Then select it from the list. It has the name: **Word2BibTeX**
 
-6. Make sure you have installed the Zotero Word Processor Plugin.
+6. Make sure you have installed the _Zotero Word Processor Plugin_.
    
 7. Now, in Word, you can type your text as usual and add citations with your prefered citation style and shortcut (`Cmd + Shift + C` for me).
 In the end, you can add your References section as usual.
-<img width="1786" height="1054" alt="image" src="https://github.com/user-attachments/assets/553f4f0a-a4ee-41dd-8e55-df6898f09334" />
+<p align="center">   
+  <img src="https://github.com/user-attachments/assets/553f4f0a-a4ee-41dd-8e55-df6898f09334" width="400">
+</p>
 Note: This is the style you prefer to look during writing, not the style for the final document in LaTeX.
 
 8. When you are ready to move to LaTeX, just go to the Document Preferences in the Zotero tab of Word, and select **Word2BibTeX**.
-<img width="1362" height="204" alt="image" src="https://github.com/user-attachments/assets/1a04bf63-da0e-42eb-9caf-0ffa6fe04d32" />
+<p align="center">   
+  <img src="https://github.com/user-attachments/assets/1a04bf63-da0e-42eb-9caf-0ffa6fe04d32" width="400">
+</p>
 
 9. This will convert the citations in a BibTeX format and the References list in a matching format.
 Now, you can copy your text to your LaTeX document and you can copy the References lists inside your _Bibliography.bib_ file so that it is processed by BibTeX.
-<img width="1716" height="888" alt="image" src="https://github.com/user-attachments/assets/ef126a15-1961-4a0a-a4d9-f6d813283edd" />
+<p align="center">   
+  <img src="https://github.com/user-attachments/assets/ef126a15-1961-4a0a-a4d9-f6d813283edd" width="400">
+</p>
 
 Note: Importantly, this process is reversible, so as long as you save your Word file, you can always revert back to your prefered citation style for viewing, modify the text and then convert again to BibTeX style. However, this wouldn't work if you just copy the text from a pure LaTeX file, since it will be missing all the xml metadata.
 
